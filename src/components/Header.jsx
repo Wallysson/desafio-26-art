@@ -1,3 +1,4 @@
+import { Button } from './Button'
 import styles from './Header.module.css'
 
 export function Header() {
@@ -8,7 +9,7 @@ export function Header() {
         placeholder="Buscar"
         type="text"
       />
-      <button >Entrar</button>
+      <Button value={"Entrar"}/>
     </header>
   )
 }

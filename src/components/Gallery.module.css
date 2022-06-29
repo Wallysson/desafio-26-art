@@ -1,0 +1,31 @@
+.gallery {
+  padding-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.galleryBoxImg {
+  display: flex;
+  gap: 3.375rem;
+}
+
+.galleryBoxImg img {
+  width: 100%;
+  max-width: 12.5rem;
+  height: 12.125rem;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.content {
+  margin-left: auto;
+  width: 24.75rem;
+}
+
+.content strong {
+  display: block;
+  font-weight: 500;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}

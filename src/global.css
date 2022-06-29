@@ -17,3 +17,7 @@ body {
   background: var(--white);
   color: var(--black);
 }
+
+ul {
+  list-style: none;
+}

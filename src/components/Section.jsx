@@ -1,3 +1,4 @@
+import { Button } from './Button'
 import styles from './Section.module.css'
 
 export function Section() {
@@ -6,7 +7,7 @@ export function Section() {
       <div className={styles.contentTitle}>
         <h1>Descubra novos artistas e suas obras</h1>
         <span>Uma nova geração de jovens artistas surgem</span>
-        <button>Explorar</button>
+        <Button value={"Explorar"} />
         <div className={styles.contentDescription}>
           <div className={styles.contentDescriptionItems}>
             <strong>+2 mil</strong>
