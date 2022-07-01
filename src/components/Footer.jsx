@@ -5,10 +5,18 @@ export function Footer() {
     <footer className={styles.footer}>
       <h1>Art.</h1>
       <ul>
-        <li>Inicio</li>
-        <li>Buscar</li>
-        <li>Explorar</li>
-        <li>Sobre Nós</li>
+        <li>
+          <a href="#">Inicio</a>
+        </li>
+        <li>
+          <a href="#">Buscar</a>          
+        </li>
+        <li>
+          <a href="#">Explorar</a>
+        </li>
+        <li>          
+          <a href="#">Sobre nós</a>      
+        </li>
       </ul>
     </footer>
   )

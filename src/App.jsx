@@ -12,9 +12,9 @@ export function App() {
     <div className={styles.wrapper}>
       <Header />
       <Section />
-      <Gallery />
+      {/* <Gallery />
       <Artists />
-      <Footer />
+      <Footer /> */}
     </div>
   )
 }

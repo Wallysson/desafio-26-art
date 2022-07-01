@@ -11,9 +11,8 @@
 }
 
 .galleryBoxImg img {
-  width: 100%;
-  max-width: 12.5rem;
-  height: 12.125rem;
+  max-width: auto;
+  height: auto;
   border-radius: 4px;
   object-fit: cover;
 }
