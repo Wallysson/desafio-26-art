@@ -1,5 +1,6 @@
 .artists {
   padding-top: 5rem;
+  width: 100%;
 }
 
 .artists h3 {
@@ -7,17 +8,17 @@
   font-size: 2.5rem;
 }
 
-.artists div {
+.artistsContainer {
   margin-top: 2.5rem;
   display: flex;
-  align-items: center;
+  gap: 1.25rem;
   justify-content: space-between;
+  width: 100%;
 }
 
-.artists img {
+.artistsContainer img {
+  height: 100%;
   width: 100%;
-  max-width: 24.75rem;
-  height: 30.25rem;
+  object-fit: contain;
   border-radius: 4px;
-  object-fit: cover;
 }

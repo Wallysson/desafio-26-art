@@ -23,7 +23,9 @@ export function Section() {
           </div>
         </div>
       </div>
-      <img src="src/assets/art-right.png" alt="" />
+      <div className={styles.sectionRight}>
+        <img src="src/assets/art-right.png" alt="" />
+      </div>
     </section>
   )
 }
