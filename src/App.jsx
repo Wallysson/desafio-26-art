@@ -13,8 +13,8 @@ export function App() {
       <Header />
       <Section />
       <Gallery />
-      {/* <Artists />
-      <Footer /> */}
+      <Artists />
+      <Footer />
     </div>
   )
 }
