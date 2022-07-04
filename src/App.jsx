@@ -12,8 +12,8 @@ export function App() {
     <div className={styles.wrapper}>
       <Header />
       <Section />
-      {/* <Gallery />
-      <Artists />
+      <Gallery />
+      {/* <Artists />
       <Footer /> */}
     </div>
   )
