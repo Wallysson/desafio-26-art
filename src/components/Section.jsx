@@ -24,7 +24,7 @@ export function Section() {
         </div>
       </div>
       <div className={styles.sectionRight}>
-        <img src="/assets/art-right.png" alt="" />
+        <img src="../assets/art-right.png" alt="" />
       </div>
     </section>
   )
