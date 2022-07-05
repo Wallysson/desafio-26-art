@@ -1,6 +1,8 @@
 import { Button } from './Button'
 import styles from './Section.module.css'
 
+import artRight from '../assets/art-right.png'
+
 export function Section() {
   return (
     <section className={styles.section}>
@@ -24,7 +26,7 @@ export function Section() {
         </div>
       </div>
       <div className={styles.sectionRight}>
-        <img src="../assets/art-right.png" alt="" />
+        <img src={artRight} alt="" />
       </div>
     </section>
   )
